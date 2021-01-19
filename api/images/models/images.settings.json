@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "images",
+  "info": {
+    "name": "Images"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "hash": {
+      "type": "string",
+      "required": true
+    },
+    "index": {
+      "type": "biginteger"
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "removed": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
