@@ -1,0 +1,17 @@
+{
+  "kind": "singleType",
+  "collectionName": "qdg_general_configs",
+  "info": {
+    "name": "QDG General Config"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "maciAddress": {
+      "type": "string"
+    }
+  }
+}

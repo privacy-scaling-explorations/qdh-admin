@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/qdg-general-config",
+      "handler": "qdg-general-config.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/qdg-general-config",
+      "handler": "qdg-general-config.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/qdg-general-config",
+      "handler": "qdg-general-config.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
