@@ -2,16 +2,26 @@
   "kind": "singleType",
   "collectionName": "qdg_general_configs",
   "info": {
-    "name": "QDG General Config"
+    "name": "QDG General Config",
+    "description": ""
   },
   "options": {
     "increments": true,
     "timestamps": true,
-    "draftAndPublish": true
+    "draftAndPublish": false
   },
   "attributes": {
     "maciAddress": {
       "type": "string"
+    },
+    "tally": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
