@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "qdg_general_configs",
+  "collectionName": "qdh_general_configs",
   "info": {
-    "name": "QDG General Config",
+    "name": "QDH General Config",
     "description": ""
   },
   "options": {

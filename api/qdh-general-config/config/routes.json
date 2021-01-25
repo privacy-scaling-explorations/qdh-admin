@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/qdg-general-config",
-      "handler": "qdg-general-config.find",
+      "path": "/qdh-general-config",
+      "handler": "qdh-general-config.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/qdg-general-config",
-      "handler": "qdg-general-config.update",
+      "path": "/qdh-general-config",
+      "handler": "qdh-general-config.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/qdg-general-config",
-      "handler": "qdg-general-config.delete",
+      "path": "/qdh-general-config",
+      "handler": "qdh-general-config.delete",
       "config": {
         "policies": []
       }
