@@ -2,8 +2,8 @@ module.exports = ({ env }) => ({
   upload: {
     provider: 'azure-storage',
     providerOptions: {
-      account: env('ASURE_STORAGE_ACCOUNT_NAME'),
-      accountKey: env('ASURE_KEY'),
+      account: env('AZURE_STORAGE_ACCOUNT_NAME'),
+      accountKey: env('AZURE_KEY'),
       serviceBaseURL: env('STORAGE_URL'),
       containerName: env('STORAGE_CONTAINER_NAME'),
       defaultPath: 'assets',

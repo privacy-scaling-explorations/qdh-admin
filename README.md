@@ -18,8 +18,11 @@ npm run develop
 
 In the root of the project, copy `.env.example` file and name it `.env`.
 
-Set values for all the missing variables, such as `MONGO_URL`, `ASURE_STORAGE_ACCOUNT_NAME`, `ASURE_CONTAINER_NAME`, `ASURE_KEY`, `ASURE_CONNECTION_STRING` and `ADMIN_JWT_SECRET`, which is just a random secret salt string.
+Set values for all the missing variables, such as `MONGO_URL`, `AZURE_STORAGE_ACCOUNT_NAME`, `AZURE_CONTAINER_NAME`, `AZURE_KEY`, `AZURE_CONNECTION_STRING` and `ADMIN_JWT_SECRET`, which is just a random secret salt string.
 
+Run `yarn develop` to start the server locally.
+
+The api will be available at `http://localhost:1337` and the admin panel at `http://localhost:1337/admin`
 
 # Deploying
 
