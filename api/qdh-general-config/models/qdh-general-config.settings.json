@@ -22,6 +22,12 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "maciAddressKovan": {
+      "type": "string"
+    },
+    "coordinatorPubkey": {
+      "type": "string"
     }
   }
 }
